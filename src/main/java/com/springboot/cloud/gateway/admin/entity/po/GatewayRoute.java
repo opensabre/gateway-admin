@@ -10,6 +10,7 @@ import lombok.*;
 @AllArgsConstructor
 public class GatewayRoute extends BasePo {
     private String uri;
+    private String routeId;
     private String predicates;
     private String filters;
     private String description;
